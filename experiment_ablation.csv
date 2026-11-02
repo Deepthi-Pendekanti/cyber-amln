@@ -1,0 +1,5 @@
+variant,accuracy,macro_f1,attack_recall,zero_day_recall,footprint_kb,peak_items,final_items,splits,final_energy
+Full AMLN,0.825,0.7006,0.8195,0.2188,14.18,55,11,117,400.0
+-surprise,0.7907,0.6696,0.7745,0.0,14.95,58,12,213,400.0
+-energy,0.7939,0.6709,0.7557,0.2188,18.05,70,51,277,448.0
+-drift,0.8259,0.7001,0.8196,0.2188,13.41,52,11,0,400.0

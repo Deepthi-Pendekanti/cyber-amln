@@ -1,0 +1,16 @@
+family,support,precision,recall,f1,zero_day,novelty_recall
+BENIGN,35000,0.912,0.8346,0.8716,False,
+Bot,1966,0.9191,0.8555,0.8862,False,
+DDoS,8000,0.959,0.9347,0.9467,False,
+DoS GoldenEye,8000,0.667,0.4326,0.5248,False,
+DoS Hulk,8000,0.5633,0.9948,0.7193,False,
+DoS Slowhttptest,5499,0.9952,0.756,0.8592,False,
+DoS slowloris,5796,0.7895,0.7207,0.7535,False,
+FTP-Patator,7938,0.974,0.8269,0.8945,False,
+Heartbleed,11,1.0,0.9091,0.9524,True,0.6364
+Infiltration,36,0.76,0.5278,0.623,False,
+PortScan,8000,0.9509,0.9982,0.974,False,
+SSH-Patator,5897,0.6263,0.9318,0.7491,False,
+Web Attack ? Brute Force,1507,0.6556,0.8388,0.736,False,
+Web Attack ? Sql Injection,21,0.0,0.0,0.0,True,0.0
+Web Attack ? XSS,652,0.8571,0.0092,0.0182,False,

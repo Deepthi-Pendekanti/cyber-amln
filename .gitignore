@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training artifacts / checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Raw CIC-IDS2017 dataset (~843 MB, exceeds GitHub's 100 MB limit).
+# Re-download with scripts/download_cicids2017.py. The small cached
+# stream (data/stream.npz, ~7 MB) IS tracked so the project runs out-of-box.
+data/raw/
